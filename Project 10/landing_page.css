@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: darkorange;
+    margin-top: 6px;
+    margin-left: 80px;
+}
+.nav{
+    float: left;
+    height: 400px;
+    width: 70px;
+}
+ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{ 
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a:hover{
+    color: rgb(192, 109, 8);
+    transition: 0.5s;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.search-bar input{
+    border: 1px solid darkorange;
+    padding: 10px 20px 10px 20px;
+    background: transparent;
+    color: #fff;
+    box-shadow: 0px 0px 2px 0px;
+}
+.search-bar h2{
+    position: absolute;
+    right: 1%;
+    top: 2.9%;
+    cursor: pointer;
+    background-color: darkorange;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 2px 0px;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+}
+.search-bar h2:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+/* content */
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 30%;
+}
+.con{
+    margin-left: 70px;
+}
+.con h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.con h1 span{
+    color: darkorange;
+    font-size: 50px;
+}
+.con p{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.con button{
+    background-color: darkorange;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 0px;
+    border: none;
+    padding: 10px 22px 10px 22px;
+    cursor: pointer;
+}
+.con button:hover{
+    background-color: orangered;
+    transition: 1s;
+}
+.form{
+    position: absolute;
+    left: 155%;
+    top: 1%;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 0px;
+    width: 70%;
+}
+.form h2{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    color: darkorange;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input,text{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid darkorange;
+    padding: 10px 14px 10px 14px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+form button{
+    width: 80%;
+    background-color: darkorange;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 0px;
+    padding: 10px 14px 10px 14px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+form h4{
+    color: #fff;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 18px;
+}
+form img{
+    margin-left: 50px;
+}
+
+
